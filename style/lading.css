@@ -1,0 +1,363 @@
+/* Cor do body : rgb(218, 180, 180)*/
+
+body {
+    font-family: "Inconsolata";
+    background-color: rgb(218, 180, 180);
+    
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+header > nav > a {
+   /* background-color: rgb(204, 132, 132);*/
+    color: rgb(48, 43, 43);
+   /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);*/
+   font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+header > nav > a:hover {
+    color: rgba(48, 43, 43, 0.671);
+    /*background-color: rgba(224, 146, 146, 0.726);*/
+    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.856);*/
+}
+
+#banner {
+    background: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 98vw;
+    height: 400px;
+
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0 ;
+}
+
+.legenda {
+    background-color: rgba(224, 146, 146, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h4,
+.legenda h5 {
+    color: rgb(78, 53, 53);
+    line-height: 150%;
+}
+.btn { 
+    border-radius: 20px;
+    display: inline;
+    background-color: rgb(248, 89, 116);
+    color: white;
+    font-size: 2rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+    padding: 10px 15px;
+    width: auto;
+    float: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    transition-duration: .3s;
+}
+
+.btn:hover {
+    background-color: rgb(252, 104, 129);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
+
+#saiba-mais {
+    background-color: rgb(218, 180, 180);
+    padding: 20px 10px;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#saiba-mais p {
+    background-color: rgb(170, 136, 136);
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 150%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+
+form {
+    background-color:rgb(170, 120, 120);
+    padding: 15px;
+    width: 94vw;
+    height: auto;
+    /*margin: auto;*/
+    margin-top: 330px;
+
+    border-radius: 10px;
+    border: 2px solid  rgb(255, 255, 255) ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    color: white;
+}
+
+form > h2 {
+    font-size: 28px;
+    color: rgb(78, 53, 53);
+} 
+
+form > h3 {
+    font-size: 24px;
+    margin-top: 80px;
+    color: rgb(78, 53, 53);
+}
+
+form > p {
+    color: rgb(34, 23, 23);
+}
+
+.lario {
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lario > label {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
+}
+
+.lario > input {
+    width: 400px;
+    padding: 8px;
+    border: none;
+    color: black;
+    border-radius: 10px;
+}
+.inter {
+    background-color: rgb(248, 89, 116);
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 14vw;
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 10px;
+    transition-duration: .3s;
+}
+
+.inter:hover {
+    background-color: rgb(247, 96, 121);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.inter > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(121, 85, 85) ;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px; 
+    font-weight: bolder;  
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(0, 0, 0, 0.685);
+    text-decoration: underline;
+}
+
+@media (Max-width: 425px) {
+
+    header {
+        position: relative;
+        padding: 5px;
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    
+    header > img {
+        width: auto;
+    }
+
+    nav {
+        width: auto; 
+        padding: 5px;
+    }
+    
+    header > nav > a {
+       /* background-color: rgb(204, 132, 132);*/
+        color: rgb(48, 43, 43);
+       /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);*/
+       font-size: 16px;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bolder;
+        display: inline;
+        padding: 5px;
+        transition-duration: .3s;
+    }
+    
+    header > nav > a:hover {
+        color: rgba(48, 43, 43, 0.671);
+        /*background-color: rgba(224, 146, 146, 0.726);*/
+        /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.856);*/
+    }
+
+    .legenda-container {
+        width: 30vw;
+        float: none;
+        border-radius: 15px;
+        padding: 10px;
+        display: block;
+    }
+    
+    .legenda {
+        background-color: rgba(224, 146, 146, 0.6);
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .legenda h4,
+    .legenda h4 {
+        line-height: 110%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }    
+
+    #saiba-mais {
+        background-color: rgb(218, 180, 180);
+        padding: 20px 10px;
+        text-align: center;
+    }
+    
+    #saiba-mais p,
+    #saiba-mais img {
+        width: 45%;
+        display: block;
+        float: none;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    #saiba-mais img {
+        display: block;
+    }
+
+    #saiba-mais p {
+        background-color: rgb(170, 136, 136);
+        font-weight: 400;
+        margin: auto;
+        height: auto;
+        border-radius: 15px;
+        font-size: 14px;
+        line-height: 130%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+    }
+
+    form {
+        background-color:rgb(170, 120, 120) ;
+        padding: 20px;
+        width: 70vw;
+        height: auto;
+        margin: auto;
+        margin-top:10px;
+    
+        border-radius: 10px;
+        border: 2px solid  rgb(255, 255, 255) ;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+        color: white;
+    }
+    
+    .lario {
+        padding: 8px;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .lario > label {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
+    }
+    
+    .lario > input {
+        width: 230px;
+        padding: 4px;
+        border: none;
+        color: black;
+        border-radius: 10px;
+    }
+    .inter {
+        background-color: rgb(248, 89, 116);
+        text-decoration: none;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 50vw;
+        font-size: 18px;
+        padding: 12px;
+        border-radius: 10px;
+        transition-duration: .3s;
+    }
+    
+    
+    .inter > a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        width: 100%;
+    }
+
+    footer {
+        background-color: rgb(121, 85, 85) ;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 12px; 
+        font-weight: bolder;  
+        padding: 10px;
+        text-align: center;
+    }
+
+}
