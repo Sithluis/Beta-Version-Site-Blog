@@ -244,6 +244,7 @@ footer a:hover {
 
     .legenda-container {
         width: 30vw;
+        height: auto;
         float: none;
         border-radius: 15px;
         padding: 10px;
@@ -254,16 +255,19 @@ footer a:hover {
         background-color: rgba(224, 146, 146, 0.6);
         padding: 10px;
         border-radius: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     .legenda h4,
-    .legenda h4 {
-        line-height: 110%;
+    .legenda h5 {
+        font-size: 12;
+        line-height: 120%;
     }
 
     .btn {
         font-size: 14px;
+        width: 22vw;
+        margin: auto;
         padding: 10px;
     }    
 
